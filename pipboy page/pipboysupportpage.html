@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pip-Boy Hub - Support</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #32CD32;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 3px solid #32CD32;
+            border-radius: 10px;
+            box-shadow: 0 0 20px #32CD32;
+            margin-top: 20px;
+        }
+
+        header {
+            padding: 20px 0;
+        }
+
+        nav {
+            margin-bottom: 30px;
+        }
+
+        nav a {
+            color: #32CD32;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            border: 2px solid #32CD32;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #32CD32;
+            color: #000;
+        }
+
+        .content {
+            margin-top: 20px;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .faq-section {
+            margin-bottom: 30px;
+        }
+
+        .faq-item {
+            margin-bottom: 15px;
+        }
+
+        .faq-item h3 {
+            margin: 0 0 5px 0;
+        }
+
+        .troubleshooting {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 10px;
+            border-top: 1px solid #32CD32;
+        }
+
+        .crt-effect {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .crt-effect::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: repeating-linear-gradient(
+                0deg,
+                rgba(255, 255, 255, 0.1),
+                rgba(255, 255, 255, 0.1) 1px,
+                transparent 1px,
+                transparent 2px
+            );
+            pointer-events: none;
+            mix-blend-mode: overlay;
+        }
+
+        .crt-effect::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: rgba(255, 255, 255, 0.05);
+            pointer-events: none;
+            mix-blend-mode: overlay;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container crt-effect">
+        <header>
+            <h1>Pip-Boy Hub - Support</h1>
+        </header>
+
+        <nav>
+            <a href="pipboyhomepage.html">Home</a>
+            <a href="pipboyproductspage.html">Products</a>
+            <a href="contactshomepage.html">Contact</a>
+            <a href="pipboysupportpage.html">Support</a>
+        </nav>
+
+        <div class="content">
+            <h2>Support and Troubleshooting</h2>
+
+            <div class="faq-section">
+                <h3>Frequently Asked Questions (FAQs)</h3>
+
+                <div class="faq-item">
+                    <h3>Q: How do I reset my Pip-Boy?</h3>
+                    <p>A: To reset your Pip-Boy, hold down the power button for 10 seconds until the screen flickers and restarts.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Q: My Pip-Boy is not turning on, what should I do?</h3>
+                    <p>A: Check if the battery is fully charged. If the issue persists, try replacing the fusion core or contact our support team.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Q: How can I update the software on my Pip-Boy?</h3>
+                    <p>A: Connect your Pip-Boy to a terminal and run the "syst-update-pipsoft-vers-1.79" command from the settings menu. Ensure your terminal has an active network connection.</p>
+                </div>
+            </div>
+
+            <div class="troubleshooting">
+                <h3>Troubleshooting Tips</h3>
+                <ul>
+                    <li>Ensure your Pip-Boy is securely fastened to your wrist to avoid signal disruptions.</li>
+                    <li>Regularly clean your Pip-Boy with a dry cloth to prevent dust buildup in the ports.</li>
+                    <li>If experiencing display issues, adjust the brightness settings in the "Display" menu.</li>
+                </ul>
+            </div>
+
+            <div class="support-contact">
+                <h3>Need Further Assistance?</h3>
+                <p>If the above solutions don't resolve your issue, please reach out to our support team:</p>
+                <p>Email: support@pipboyhub.com</p>
+                <p>Phone: +1-800-PIP-HELP</p>
+                <p>Live Chat: Available on our website 24/7</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2077 Pip-Boy Hub. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
